@@ -33,7 +33,7 @@ export const NavBar = () => {
   }, [hasOpenedModal, onOpen]);
 
   const marqueeText =
-    quotes?.join("  •  ") || "Selamat datang di SMKN 1 Kawali!";
+    quotes?.join("  •  ") || "Selamat datang di SMKN 1 Pusaka Nagara!";
 
   return (
     <nav className="bg-white dark:bg-zinc-900 shadow-xl px-8 transition-colors">
@@ -41,13 +41,13 @@ export const NavBar = () => {
         {/* Logo Sekolah */}
         <div className="flex items-center gap-4">
           <Image
-            src="/Logo SMKN 1 Kawali.png"
+            src="/logo.png"
             alt="logo"
             width={60}
             height={60}
             priority
           />
-          <h5 className="text-black dark:text-white">SMKN 1 Kawali</h5>
+          <h5 className="text-black dark:text-white">SMKN 1 Pusaka Nagara</h5>
         </div>
 
         {/* Marquee Text (Desktop) */}
